@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shake Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shake Counter</h1>
+    <p id="shakeCount">Shakes detected: 0</p>
+
+    <script>
+        // Initialize a counter for shakes
+        let shakeCount = 0;
+
+        // Event handler for device motion
+        function handleMotion(event) {
+            const { x, y, z } = event.accelerationIncludingGravity;
+            const totalAcceleration = Math.sqrt(x ** 2 + y ** 2 + z ** 2);
+            const shakeThreshold = 10; // Adjust as needed
+
+            if (totalAcceleration > shakeThreshold) {
+                shakeCount++;
+                document.getElementById('shakeCount').textContent = `Shakes detected: ${shakeCount}`;
+            }
+        }
+
+        // Register the event listener
+        window.addEventListener('devicemotion', handleMotion);
+    </script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 Near Shake Fit is a fitness dapp that rewards you for being fit. Every time you shake your phone like a shake weight, you get rewarded.
 
 Core Learnings:
-- Wish we had more time
+- Learned about NEP-141
 - Near Docs are wonderful
 - Need to figure out how coins are tied to a user account and distributed
 

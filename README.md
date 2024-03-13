@@ -9,4 +9,4 @@ Core Learnings:
 
 I wish I had more time, my project had hidden complexity that made it dififcult to finish it into a working product. Nevertheless I learned a lot and furthered my coding skills. Plus the community and help all around was wonderful and really uplifting
 
-Alex Wallet - e94c003da3c82eb5d7197ae9834f888e5dbe78613d2801f0eb2a01ad8c9e1ea6
+Alex Wallet - 6bf14734b2f4cea1dc0e279ee968285ba76f4d616084555835e6e5d34cd9b0ab

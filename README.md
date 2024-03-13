@@ -8,3 +8,5 @@ Core Learnings:
 - Need to figure out how coins are tied to a user account and distributed
 
 I wish I had more time, my project had hidden complexity that made it dififcult to finish it into a working product. Nevertheless I learned a lot and furthered my coding skills. Plus the community and help all around was wonderful and really uplifting
+
+Alex Wallet - e94c003da3c82eb5d7197ae9834f888e5dbe78613d2801f0eb2a01ad8c9e1ea6
